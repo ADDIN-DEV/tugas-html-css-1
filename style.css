@@ -1,0 +1,67 @@
+body {
+	background-color: #E1EEBC; /* Warna latar belakang */
+	font-family: Arial, sans-serif; /* Jenis font */
+	color: #000000; /* Warna teks */
+	margin: 0; /* Menghilangkan margin bawaan */
+	padding: 20px; /* Spasi dalam body */
+	display: block;
+}
+
+blockquote {
+	border-left: 5px solid #328E6E; /* Border kiri */
+	padding-left: 10px; /* Spasi dari border */
+	background-color: #90C67C; /* Latar belakang abu-abu muda */
+	font-style: italic; /* Gaya teks */
+	margin: 0 auto; /* Menghilangkan margin bawaan */
+	padding: 10px; /* Spasi dalam blockquote */
+	border-radius: 5px; /* Sudut border */
+  }
+
+img {
+	width: 500px;
+	height: 300px;
+	border-radius: 20px;
+	justify-content: center;
+  }
+
+img:hover {
+	transition: transform 0.5s; /* Transisi saat hover */
+	transform: scale(1.05); /* Membesar gambar saat hover */
+	background-color: #b2e5a0; /* Warna latar belakang saat hover */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Bayangan */
+  }
+
+
+code.sudo { /* Khusus untuk class sudo */
+	border: #328E6E;
+	border-radius: 1px;
+	font-style: bold;
+	background-color: #328E6E;
+	padding: 5px;
+  }
+
+a {
+	color: #328E6E;
+}
+
+div.toc {
+	border: 3px solid #328E6E;
+	padding: 7px;
+	border-radius: 15px;
+	max-width: 500px;
+	padding-bottom: 10px;
+	display: table;
+	margin: 0 auto; /* Menghilangkan margin bawaan */
+}
+
+div.toc ul {
+	list-style-type: none; /* Menghilangkan bullet */
+	padding: 0; /* Menghilangkan padding */
+	margin: 0; /* Menghilangkan margin */
+}
+
+
+div.toc:hover {
+	background-color: #b2e5a0; /* Warna latar belakang saat hover */
+	transition:ease-in 0.2s; /* Transisi */
+}
